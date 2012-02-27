@@ -1,0 +1,96 @@
+@CHARSET "UTF-8";  
+a{  
+    text-decoration: none;  
+}  
+/******* GENERAL RESET *******/  
+
+/******* MENU *******/  
+#container{  
+    margin: 0 auto;  
+    margin-left:20px;
+    width: 520px; 
+    
+    height:28px;
+    vertical-align:	bottom;
+}  
+#container ul{  
+    list-style: none;  
+     
+}  
+#container ul.menu li{  
+    float: left;  
+    margin-right: 5px;  
+    margin-bottom: -1px;  
+}  
+#container ul.menu li{  
+    font-weight: 700;  
+    display: block;  
+    padding: 5px 10px 5px 10px;  
+    background: #efefef;  
+    margin-bottom: -1px;  
+    border: 1px solid #d0ccc9;  
+    border-width: 1px 1px 1px 1px;  
+    position: relative;  
+    color: #898989;  
+    cursor: pointer;  
+}  
+#container ul.menu li.active{  
+    background: #fff;  
+    top: 1px;  
+    border-bottom: 0;  
+    color: #5f95ef;  
+}  
+/******* /MENU *******/  
+/******* CONTENT *******/  
+.content{  
+    margin: 0pt auto; 
+    width:440px;
+    margin-left:60px; 
+    background: #efefef;  
+    background: #000000;  
+    border: 1px solid #d0ccc9;  
+    text-align: left;  
+    
+    padding-bottom: 20px;  
+    font-size: 11px;  
+    color:#ffffff;
+}  
+.content h1{  
+    line-height: 1em;  
+    vertical-align: top;  
+    height: 18px;  
+    padding: 4px 4px 4px 4px;  
+    padding-left:20px;
+    font-size: 1.2em;  
+    font-family: "Arial";
+    font-weight:700;
+    color:#bbbbbb;
+}  
+/******* /CONTENT *******/  
+/******* NEWS *******/  
+.content.general h1{  
+    
+}  
+.content.general{  
+    display: block;  
+}  
+/******* /NEWS *******/  
+/******* TUTORIALS *******/  
+.content.tutorials h1{  
+    
+}  
+.content.tutorials{  
+    display: none;  
+}  
+/******* /TUTORIALS *******/  
+/******* LINKS *******/  
+.content.links h1{  
+    
+}  
+.content.links{  
+    display: none;  
+}  
+.content.links a{  
+    color: #5f95ef;  
+}  
+/******* /LINKS *******/  

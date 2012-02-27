@@ -1,0 +1,37 @@
+body{
+	text-align: center;
+	background-color:black;
+	width: 100%;
+	color:grey;
+	font-family: verdana;
+	font-size: 0.8em;
+	font-weight:700;
+}
+#glPanel{
+	margin: 0 auto;
+	margin-top:30px;
+	width:1200;
+	height:500;
+	
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	
+	box-shadow: 0px 0px 20px #ffffff;
+}
+#glCanvas{
+	float:left;
+	width : 640px;
+	height: 480px;
+}
+#glMenu{
+	
+	float:left;
+	padding-left:20px;
+	text-align:left;
+	width: 250px;
+	color:white;
+}
+#instr1{
+	float:left;
+	width:640px;
+}
